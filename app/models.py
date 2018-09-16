@@ -20,7 +20,7 @@ class User ( UserMixin , db.Model ):
     profile_pic_path = db.Column ( db.String ( ) )
     password_hash = db.Column ( db.String ( 255 ) )
     pass_secure = db.Column ( db.String ( 255 ) )
-    pitch = db.relationship ( 'Pitch' , backref='users' , lazy="dynamic" )
+    post = db.relationship ( 'Post' , backref='users' , lazy="dynamic" )
 
     def save_comment(self):
         db.session.add ( self )
@@ -28,7 +28,7 @@ class User ( UserMixin , db.Model ):
 
     @classmethod
     def get_comments(cls , id):
-        reviews = Comment.query.filter_by ( pitch_id=id ).all ( )
+        comments = Comment.query.filter_by ( post_id=id ).all ( )
         return comments
 
     @property
@@ -48,7 +48,7 @@ class User ( UserMixin , db.Model ):
 
 class Post ( db.Model ):
     '''
-    Pitch class to define Pitch Objects
+    Pitch class to define Post Objects
     '''
     __tablename__ = 'post'
 
@@ -60,7 +60,7 @@ class Post ( db.Model ):
 
     def save_post(self):
         '''
-        Function that saves pitches
+        Function that saves posts
         '''
         db.session.add ( self )
         db.session.commit ( )
@@ -68,14 +68,14 @@ class Post ( db.Model ):
     @classmethod
     def get_all_posts(cls):
         '''
-        Function that queries the databse and returns all the pitches
+        Function that queries the databse and returns all the posts
         '''
         return Post.query.all ( )
 
     @classmethod
     def get_posts_by_category(cls , cat_id):
         '''
-        Function that queries the databse and returns pitches based on the
+        Function that queries the databse and returns posts based on the
         category passed to it
         '''
         return Post.query.filter_by ( category_id=cat_id )
@@ -121,9 +121,9 @@ class Role ( db.Model ):
 
 class PostCategory ( db.Model ):
     '''
-    Function that defines different categories of pitches
+    Function that defines different categories of posts
     '''
-    __tablename__ = 'pitch_categories'
+    __tablename__ = 'post_categories'
 
     id = db.Column ( db.Integer , primary_key=True )
     name_of_category = db.Column ( db.String ( 255 ) )
