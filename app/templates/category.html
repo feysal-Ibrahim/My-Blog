@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% import 'macros.html' as macro%}
+
+{% block content %}
+<h3 class="text-center">{{category.name|upper}} Post</h3>
+<hr>
+
+{% if posts %}
+
+{% for post in posts %}
+<h3>{{post.id}}</h3>
+{%else%}

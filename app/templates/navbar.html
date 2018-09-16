@@ -1,4 +1,4 @@
-<div class="navbar navbar-inverse" role="navigation">
+<div class="navbar navbar-inverse" role="navigation" style="background-color:blue; border:white;">
        <div class="container-fluid">
            <div class="navbar-header">
                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -11,21 +11,20 @@
            </div>
            <div class="navbar-collapse collapse">
                <ul class="nav navbar-nav">
-                   <li><a href="/">Inspiration</a></li>
-                    <li><a href="/">Education</a></li>
-                    <li><a href="/">News</a></li>
-                    <li><a href="/">Editor's Choice</a></li>
+                   <li><a href="/inspiration/posts/">Inspiration</a></li>
+                    <li><a href="/Education/posts/">Education</a></li>
+                    <li><a href="/News/posts/">News</a></li>
+                    <li><a href="/Editors/posts/">Editor's Choice</a></li>
                     <li><a href="/">design & Category</a></li>
                    </a>
                </ul>
               <ul class="nav navbar-nav navbar-right">
                   {% if current_user.is_authenticated %}
-                  <li><a href="{{url_for('main.profile',uname=current_user.username)}}">Profile</a></li><
-                  <li><a class="nav-item nav-link" href="{{ url_for('main.new_pitch') }}">New Pitch</a></li>
-                  <li style="color:white;padding:15px;">{{current_user.username}}</li>
-                  <li><a href="{{url_for('auth.logout')}}">Sign out</a></li>
-                  {% else %}
-                  <li><a href="{{url_for('auth.login')}}">Sign in</a></li>
+                    <li><a href="{{url_for('main.profile',uname=current_user.username)}}" style="color:black; font-weight:bolder;">Profile</a></li>
+                <li><a href="{{url_for('main.profile',uname=current_user.username)}}" style="color:black; font-weight:bolder;">{{current_user.username}}</a></li>
+                <li><a href="{{url_for('auth.logout')}}" style="color:black; font-weight:bolder;">Sign out</a></li>
+                {% else %}
+                <li><a href="{{url_for('auth.login')}}" style="color:black; font-weight:bolder;">Log in</a></li>
 
                   {%endif%}
                 </ul>
@@ -33,4 +32,5 @@
                     </div>
 
        </div>
+
 </div>

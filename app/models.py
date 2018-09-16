@@ -53,7 +53,7 @@ class Post ( db.Model ):
     __tablename__ = 'post'
 
     id = db.Column ( db.Integer , primary_key=True )
-    pitch = db.Column ( db.String )
+    post = db.Column ( db.String )
     category_id = db.Column ( db.Integer )
     user_id = db.Column ( db.Integer , db.ForeignKey ( "users.id" ) )
     comments = db.relationship ( 'Comment' , backref='post' , lazy="dynamic" )
@@ -70,15 +70,15 @@ class Post ( db.Model ):
         '''
         Function that queries the databse and returns all the posts
         '''
-        return Post.query.all ( )
+        return Post.query.all ()
 
     @classmethod
-    def get_posts_by_category(cls , cat_id):
+    def get_posts_by_category(cls , mall_id):
         '''
         Function that queries the databse and returns posts based on the
         category passed to it
         '''
-        return Post.query.filter_by ( category_id=cat_id )
+        return Post.query.filter_by ( category_id=mall_id )
 
 
 class Comment ( db.Model ):
