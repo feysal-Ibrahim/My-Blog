@@ -1,22 +1,35 @@
 from . import db
-from werkzeug.security import generate_password_hash,check_password_hash
+from werkzeug.security import generate_password_hash , check_password_hash
 from flask_login import UserMixin
 from . import login_manager
+from datetime import datetime
+
 
 @login_manager.user_loader
 def load_user(user_id):
-    return User.query.get(int(user_id))
+    return User.query.get ( int ( user_id ) )
 
-class User(UserMixin,db.Model):
+
+class User ( UserMixin , db.Model ):
     __tablename__ = 'users'
-    id = db.Column(db.Integer,primary_key = True)
-    username = db.Column(db.String(255))
+    id = db.Column ( db.Integer , primary_key=True )
+    username = db.Column ( db.String ( 255 ) , index=True )
     email = db.Column ( db.String ( 255 ) , unique=True , index=True )
     role_id = db.Column ( db.Integer , db.ForeignKey ( 'roles.id' ) )
     bio = db.Column ( db.String ( 255 ) )
     profile_pic_path = db.Column ( db.String ( ) )
+    password_hash = db.Column ( db.String ( 255 ) )
     pass_secure = db.Column ( db.String ( 255 ) )
-    # Defining the One to many relationship between a user and a pitch
+    pitch = db.relationship ( 'Pitch' , backref='users' , lazy="dynamic" )
+
+    def save_comment(self):
+        db.session.add ( self )
+        db.session.commit ( )
+
+    @classmethod
+    def get_comments(cls , id):
+        reviews = Comment.query.filter_by ( pitch_id=id ).all ( )
+        return comments
 
     @property
     def password(self):
@@ -29,16 +42,97 @@ class User(UserMixin,db.Model):
     def verify_password(self , password):
         return check_password_hash ( self.pass_secure , password )
 
-
     def __repr__(self):
         return f'User {self.username}'
 
+
+class Post ( db.Model ):
+    '''
+    Pitch class to define Pitch Objects
+    '''
+    __tablename__ = 'post'
+
+    id = db.Column ( db.Integer , primary_key=True )
+    pitch = db.Column ( db.String )
+    category_id = db.Column ( db.Integer )
+    user_id = db.Column ( db.Integer , db.ForeignKey ( "users.id" ) )
+    comments = db.relationship ( 'Comment' , backref='post' , lazy="dynamic" )
+
+    def save_post(self):
+        '''
+        Function that saves pitches
+        '''
+        db.session.add ( self )
+        db.session.commit ( )
+
+    @classmethod
+    def get_all_posts(cls):
+        '''
+        Function that queries the databse and returns all the pitches
+        '''
+        return Post.query.all ( )
+
+    @classmethod
+    def get_posts_by_category(cls , cat_id):
+        '''
+        Function that queries the databse and returns pitches based on the
+        category passed to it
+        '''
+        return Post.query.filter_by ( category_id=cat_id )
+
+
+class Comment ( db.Model ):
+    __tablename__ = 'comments'
+
+    id = db.Column ( db.Integer , primary_key=True )
+    comment = db.Column ( db.String )
+    post_id = db.Column ( db.Integer , db.ForeignKey ( 'post.id' ) )
+    username = db.Column ( db.String )
+    votes = db.Column ( db.Integer )
+
+    def save_comment(self):
+        '''
+        Function that saves comments
+        '''
+        db.session.add ( self )
+        db.session.commit ( )
+
+    @classmethod
+    def clear_comments(cls):
+        Comment.all_comments.clear ( )
+
+    @classmethod
+    def get_comments(cls , id):
+        comments = Comment.query.filter_by ( pitch_id=id ).all ( )
+
+        return comments
+
+
 class Role ( db.Model ):
-        __tablename__ = 'roles'
+    __tablename__ = 'roles'
 
-        id = db.Column ( db.Integer , primary_key=True )
-        name = db.Column ( db.String ( 255 ) )
-        users = db.relationship ( 'User' , backref='role' , lazy="dynamic" )
+    id = db.Column ( db.Integer , primary_key=True )
+    name = db.Column ( db.String ( 255 ) )
+    users = db.relationship ( 'User' , backref='role' , lazy="dynamic" )
 
-        def __repr__(self):
-            return f'User {self.name}'
+    def __repr__(self):
+        return f'User {self.name}'
+
+
+class PostCategory ( db.Model ):
+    '''
+    Function that defines different categories of pitches
+    '''
+    __tablename__ = 'pitch_categories'
+
+    id = db.Column ( db.Integer , primary_key=True )
+    name_of_category = db.Column ( db.String ( 255 ) )
+    category_description = db.Column ( db.String ( 255 ) )
+
+    @classmethod
+    def get_categories(cls):
+        '''
+        This function fetches all the categories from the database
+        '''
+        categories = PostCategory.query.all ( )
+        return categories
