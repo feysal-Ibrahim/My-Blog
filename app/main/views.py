@@ -12,9 +12,11 @@ def index():
    view function that defines the routes decorater for the index
     '''
 
+    posts=Post.query.all()
+
     title = 'Home - Welcome to The best Movie Review Website Online'
 
-    return render_template ( 'index.html' , title=title )
+    return render_template ( 'index.html' , title=title,post=posts )
 
 
 #  end of index root functions
