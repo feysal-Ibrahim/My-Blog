@@ -7,4 +7,4 @@ export MAIL_USERNAME='addictivefazman@gmail.com'
 export MAIL_PASSWORD='fazmandinho1'
 
 
- heroku run python3.6 manage.py db upgrade
+python3.6 manage.py server
