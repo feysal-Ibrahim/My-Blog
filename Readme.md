@@ -45,11 +45,11 @@ The application cannot be run in any version of python lower than 3.6 because yo
 4. **_`And Myself`_**
 
 ## Technologies Used
-Python3.6
-Flask framework
-PostgreSQL
-Bootstrap
-Support and Contacts
+1. Python3.6
+2. Flask framework
+3. PostgreSQL
+4. Bootstrap
+## Support and Contacts
 In case You have any issues using this code please do no hesitate to get in touch with me through addictivefazman@gmail.com or leave a commit here on github.
 
 ## License
