@@ -30,6 +30,8 @@ FEYSAL IBRAHIM`_**
 # How it works
 1.A user needs to register
 2.A user the needs to log in to vote and post blogs
+3.a user can comment the blog posted by other users
+4.a user can view comment posted by ther users
 # Updates on Bugs
 The application cannot be run in any version of python lower than 3.6 because you will come across many errors
 
