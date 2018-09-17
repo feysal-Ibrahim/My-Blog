@@ -6,4 +6,3 @@
 | Comment on a post|Click Comment| Registered User displays a form where a user can comment on a certain post
 | view a comment     | Click view Comment button | Registered User can see comment posted by other users |
 | col 2 is      | centered      |    |
-| zebra stripes | are neat     
