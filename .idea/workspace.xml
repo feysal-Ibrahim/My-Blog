@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="add7a325-4e1d-43a2-90c8-f0674303ddbf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../config.py" beforeDir="false" afterPath="$PROJECT_DIR$/../config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/../manage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../migrations/README" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../migrations/alembic.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../migrations/env.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../migrations/script.py.mako" beforeDir="false" />
-    </list>
+    <list default="true" id="add7a325-4e1d-43a2-90c8-f0674303ddbf" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -285,7 +277,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1019" y="34" width="899" height="1048" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.007990868" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
