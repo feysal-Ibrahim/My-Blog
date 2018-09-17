@@ -16,7 +16,7 @@ def index():
 
     title = 'Home - Welcome to The best Movie Review Website Online'
 
-    return render_template ( 'index.html' , title=title,post=posts )
+    return render_template ( 'index.html' , title=title,post_list=posts)
 
 
 #  end of index root functions
@@ -58,7 +58,7 @@ def Education():
     View root page function that returns the index page and its data
     '''
     title = 'Product posts'
-    posts = Post.get_all_posts ( )
+    posts = Post.get_all_posts ()
     return render_template ( 'Education.html' , title=title , posts=posts )
 
 
