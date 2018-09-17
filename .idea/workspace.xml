@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="add7a325-4e1d-43a2-90c8-f0674303ddbf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../config.py" beforeDir="false" afterPath="$PROJECT_DIR$/../config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/../manage.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +50,7 @@
           <entry key="Procfile" value="4" />
           <entry key="html" value="772" />
           <entry key="md" value="385" />
-          <entry key="py" value="1400" />
+          <entry key="py" value="1401" />
           <entry key="sh" value="8" />
         </counts>
       </usages-collector>
@@ -62,7 +60,7 @@
           <entry key="HTML" value="772" />
           <entry key="Markdown" value="385" />
           <entry key="PLAIN_TEXT" value="4" />
-          <entry key="Python" value="1400" />
+          <entry key="Python" value="1401" />
         </counts>
       </usages-collector>
     </session>
@@ -86,12 +84,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="330">
+              <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
               <folding>
-                <marker date="1537185579730" expanded="true" signature="405:406" ph="..." />
-                <marker date="1537185579730" expanded="true" signature="405:410" ph="..." />
-                <marker date="1537185579730" expanded="true" signature="405:470" ph="..." />
+                <marker date="1537185618473" expanded="true" signature="405:406" ph="..." />
+                <marker date="1537185618473" expanded="true" signature="405:410" ph="..." />
+                <marker date="1537185618473" expanded="true" signature="405:470" ph="..." />
               </folding>
             </state>
           </provider>
@@ -681,12 +679,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../config.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="330">
+          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
           <folding>
-            <marker date="1537185579730" expanded="true" signature="405:406" ph="..." />
-            <marker date="1537185579730" expanded="true" signature="405:410" ph="..." />
-            <marker date="1537185579730" expanded="true" signature="405:470" ph="..." />
+            <marker date="1537185618473" expanded="true" signature="405:406" ph="..." />
+            <marker date="1537185618473" expanded="true" signature="405:410" ph="..." />
+            <marker date="1537185618473" expanded="true" signature="405:470" ph="..." />
           </folding>
         </state>
       </provider>
