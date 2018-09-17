@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="add7a325-4e1d-43a2-90c8-f0674303ddbf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../migrations/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../migrations/alembic.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../migrations/env.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../migrations/script.py.mako" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../start.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../start.sh" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,12 +53,12 @@
           <entry key="html" value="772" />
           <entry key="md" value="385" />
           <entry key="py" value="1371" />
-          <entry key="sh" value="4" />
+          <entry key="sh" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Bash" value="4" />
+          <entry key="Bash" value="8" />
           <entry key="HTML" value="772" />
           <entry key="Markdown" value="385" />
           <entry key="Python" value="1371" />
@@ -79,11 +83,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="45">
+              <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -100,7 +104,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../manage.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
@@ -149,7 +153,7 @@
         <entry file="file://$PROJECT_DIR$/../requirements.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+              <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -169,8 +173,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../start.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+            <state relative-caret-position="120">
+              <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -218,9 +222,9 @@
         <option value="$PROJECT_DIR$/../Specs.md" />
         <option value="$PROJECT_DIR$/../Readme.md" />
         <option value="$PROJECT_DIR$/../Procfile" />
-        <option value="$PROJECT_DIR$/../config.py" />
-        <option value="$PROJECT_DIR$/../start.sh" />
         <option value="$PROJECT_DIR$/../manage.py" />
+        <option value="$PROJECT_DIR$/../start.sh" />
+        <option value="$PROJECT_DIR$/../config.py" />
       </list>
     </option>
   </component>
@@ -255,11 +259,6 @@
               <item name="My-Blog" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="." type="b2602c69:ProjectViewProjectNode" />
-              <item name="My-Blog" type="462c0819:PsiDirectoryNode" />
-              <item name="migrations" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -302,7 +301,7 @@
     <frame x="1019" y="34" width="899" height="1048" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.007990868" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.007990868" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -313,7 +312,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32826087" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32826087" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32934782" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -632,13 +631,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -649,27 +641,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../start.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../app/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="25" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -683,6 +658,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../start.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../manage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -690,6 +672,23 @@
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../app/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="25" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
         </state>
       </provider>
     </entry>
