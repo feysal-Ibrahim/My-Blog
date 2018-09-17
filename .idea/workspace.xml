@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="add7a325-4e1d-43a2-90c8-f0674303ddbf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Readme.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,6 +46,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="772" />
+          <entry key="md" value="76" />
           <entry key="py" value="1368" />
           <entry key="sh" value="3" />
         </counts>
@@ -53,6 +55,7 @@
         <counts>
           <entry key="Bash" value="3" />
           <entry key="HTML" value="772" />
+          <entry key="Markdown" value="76" />
           <entry key="Python" value="1368" />
         </counts>
       </usages-collector>
@@ -100,8 +103,8 @@
         <entry file="file://$PROJECT_DIR$/../Readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="536">
-                <caret line="48" column="391" selection-start-line="48" selection-start-column="391" selection-end-line="48" selection-end-column="391" />
+              <first_editor relative-caret-position="357">
+                <caret line="41" column="3" selection-start-line="41" selection-start-column="3" selection-end-line="41" selection-end-column="3" />
               </first_editor>
               <second_editor />
             </state>
@@ -645,8 +648,8 @@
     <entry file="file://$PROJECT_DIR$/../Readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="536">
-            <caret line="48" column="391" selection-start-line="48" selection-start-column="391" selection-end-line="48" selection-end-column="391" />
+          <first_editor relative-caret-position="357">
+            <caret line="41" column="3" selection-start-line="41" selection-start-column="3" selection-end-line="41" selection-end-column="3" />
           </first_editor>
           <second_editor />
         </state>
