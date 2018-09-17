@@ -1,9 +1,9 @@
 # My-Blog
-#AUTHOR
+# AUTHOR
 **_`
 FEYSAL IBRAHIM`_**
 
-##Link To The Deployed Site
+## Link To The Deployed Site
 
 ## DESCRIPTION
  This is an app that allows users to create,submit,vote pitches based on categories
