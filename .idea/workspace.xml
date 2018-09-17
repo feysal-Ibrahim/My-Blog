@@ -30,7 +30,7 @@
           <entry key="Procfile" value="3" />
           <entry key="html" value="46" />
           <entry key="ini" value="1" />
-          <entry key="md" value="3" />
+          <entry key="md" value="4" />
           <entry key="py" value="50" />
           <entry key="sh" value="5" />
           <entry key="txt" value="1" />
@@ -41,7 +41,7 @@
           <entry key="Bash" value="5" />
           <entry key="HTML" value="46" />
           <entry key="Ini" value="1" />
-          <entry key="Markdown" value="3" />
+          <entry key="Markdown" value="4" />
           <entry key="PLAIN_TEXT" value="4" />
           <entry key="Python" value="50" />
         </counts>
@@ -50,7 +50,7 @@
         <counts>
           <entry key="Procfile" value="5" />
           <entry key="html" value="772" />
-          <entry key="md" value="403" />
+          <entry key="md" value="616" />
           <entry key="py" value="1402" />
           <entry key="sh" value="8" />
         </counts>
@@ -59,7 +59,7 @@
         <counts>
           <entry key="Bash" value="8" />
           <entry key="HTML" value="772" />
-          <entry key="Markdown" value="403" />
+          <entry key="Markdown" value="616" />
           <entry key="PLAIN_TEXT" value="5" />
           <entry key="Python" value="1402" />
         </counts>
@@ -101,7 +101,19 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="90">
-                <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+                <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Specs.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="90">
+                <caret line="6" column="20" lean-forward="true" selection-end-line="7" />
               </first_editor>
               <second_editor />
             </state>
@@ -161,15 +173,6 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../requirements.txt">
           <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../start.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-            </state>
-          </provider>
         </entry>
       </file>
     </leaf>
@@ -569,16 +572,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Specs.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="105">
-            <caret line="7" selection-start-line="7" selection-end-line="7" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../start.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -667,11 +660,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../Specs.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="90">
+            <caret line="6" column="20" lean-forward="true" selection-end-line="7" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../Readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="90">
-            <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+            <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
           </first_editor>
           <second_editor />
         </state>

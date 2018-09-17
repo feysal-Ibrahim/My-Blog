@@ -4,15 +4,17 @@
 FEYSAL IBRAHIM`_**
 
 ## Link To The Deployed Site
-Here is the link
+Here is the link  https://feysal-blog.herokuapp.com/
 
 ## DESCRIPTION
  This is an app that allows users to create,submit,vote pitches based on categories
-## post getories
-1.News
-2.Education
-3.Editor's choice
-4.inspiration
+ ## SPECIFICATION
+ You can check the specification of the app in the spec folder in the directory root
+## Blog cagetories
+1. News
+2. Education
+3. Editor's choice
+4. inspiration
 ## Prerequisites
 1. Ubuntu Software
 2.Python3.6
@@ -20,7 +22,7 @@ Here is the link
 4. python virtualenv
 # Setup/Installation Requirements
 1. _`internet access`_
-2. _`$ git clone https://github.com/feysal-Ibrahim/Baddas-pitch
+2. _`$ git clone https://github.com/feysal-Ibrahim/My-Blog
 `_
 3. _`$ cd /My-Blog`_
 4. _`$ python3.6 -m venv virtual (install virtual environment)`_. 
@@ -29,15 +31,18 @@ Here is the link
 7.  _`$ python3.6 -m pip install -r requirements.txt (install all dependencies)`_. 
 8.  _`then $ ./start.sh`_. 
 # How it works
-1.A user needs to register
-2.A user the needs to log in to vote and post blogs
-3.a user can comment the blog posted by other users
-4.a user can view comment posted by ther users
+1. A user needs to register
+2. A user the needs to log in to vote and post blogs
+3. A user can comment the blog posted by other users
+4. A user can view comment posted by ther users
 # Updates on Bugs
 The application cannot be run in any version of python lower than 3.6 because you will come across many errors
 
 ## CREDITS
-SAM NGINGI,CYNTHIA KASAMBULI and BOYD NDONGA
+1. **_`SAM NGINGI`_**
+2. **_`CYNTHIA KASAMBULI`_** 
+3. **_`BOYD NDONGA`_**
+4. **_`And Myself`_**
 
 ## Technologies Used
 Python3.6
