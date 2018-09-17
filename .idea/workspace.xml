@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="add7a325-4e1d-43a2-90c8-f0674303ddbf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../config.py" beforeDir="false" afterPath="$PROJECT_DIR$/../config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../start.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../start.sh" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,12 +29,12 @@
           <entry key="Procfile" value="1" />
           <entry key="html" value="46" />
           <entry key="py" value="44" />
-          <entry key="sh" value="4" />
+          <entry key="sh" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Bash" value="4" />
+          <entry key="Bash" value="5" />
           <entry key="HTML" value="46" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Python" value="44" />
@@ -45,10 +44,12 @@
         <counts>
           <entry key="html" value="772" />
           <entry key="py" value="1363" />
+          <entry key="sh" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="Bash" value="3" />
           <entry key="HTML" value="772" />
           <entry key="Python" value="1363" />
         </counts>
@@ -72,11 +73,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../config.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
               <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../start.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="35" lean-forward="true" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -153,7 +163,6 @@
         <option value="$PROJECT_DIR$/../app/auth/__init__.py" />
         <option value="$PROJECT_DIR$/../app/templates/base.html" />
         <option value="$PROJECT_DIR$/../app/templates/auth/register.html" />
-        <option value="$PROJECT_DIR$/../start.sh" />
         <option value="$PROJECT_DIR$/../app/templates/auth/login.html" />
         <option value="$PROJECT_DIR$/../app/auth/forms.py" />
         <option value="$PROJECT_DIR$/../app/auth/views.py" />
@@ -184,6 +193,7 @@
         <option value="$PROJECT_DIR$/../app/models.py" />
         <option value="$PROJECT_DIR$/../app/templates/macros.html" />
         <option value="$PROJECT_DIR$/../config.py" />
+        <option value="$PROJECT_DIR$/../start.sh" />
       </list>
     </option>
   </component>
@@ -324,13 +334,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../app/auth/errors.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../start.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="19" selection-start-column="19" selection-end-column="19" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../virtual/lib/python3.6/site-packages/alembic/util/langhelpers.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -614,6 +617,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../start.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="35" lean-forward="true" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
         </state>
       </provider>
     </entry>
