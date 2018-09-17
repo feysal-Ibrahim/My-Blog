@@ -36,13 +36,13 @@
                     <br>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-9">
-            <div class="panel style="style="border: 3px solid #f2f2f2; padding:20px; margin-top:10px;">
-                <p style="font-family: 'Bellefair', serif; font-size:20px;">Write your one minute in any of the categories to the left and let other user vote and comment on it.Please also feel free to comment and vote on pitches posted by other people </p>
+            <div class="panel-default style="style="border: 3px solid #f2f2f2; padding:20px; margin-top:10px;">
+                <p style="font-family: 'Bellefair', serif; font-size:20px;">Post your blog here and let other user vote and comment on it.Please also feel free to comment and vote on the blog  posted by other people </p>
 
                 <div style="text-align:center;">
                     <a href="{{url_for('main.new_post')}}">
                         <br>
-                        <span >Add a new Pitch</span>
+                        <button<span >Add a new Post Blog</span>
                     </a>
 
                 </div>
@@ -52,7 +52,7 @@
         </div>
     </hr>
         <div class="all-pitches">
-            <span style="color:gainsboro;">All pitches are displayed below</span>
+            <span style="color:gains">All posts are displayed below</span>
                 <hr>
                 {{macro.displayPostList(posts)}}
 
