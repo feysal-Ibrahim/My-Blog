@@ -2,7 +2,7 @@ import unittest
 from app.models import Post
 Pitch = Post
 
-class PitchTest(unittest.TestCase):
+class PostTest(unittest.TestCase):
     '''
     Test Class to test the behaviour of the Post class
     '''

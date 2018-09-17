@@ -114,15 +114,16 @@ def new_post():
     if category is None:
         abort ( 404 )
 
-    if form.validate_on_submit ( ):
+    if form.validate_on_submit ():
         post = form.content.data
         category_id = form.category_id.data
-        new_post = Post ( post=post , category_id=category_id )
+        new_post = Post( post=post , category_id=category_id )
 
-        new_post.save_pitch ( )
+        new_post.save_post ()
+
         return redirect ( url_for ( 'main.index' ) )
 
-    return render_template ( 'new_post.html' , new_PostForm=form , category=category )
+    return render_template ( 'new_post.html' , new_post_form=form , category=category )
 
 
 @main.route ( '/edit-article/<string:id>' , methods=['GET' , 'POST'] )
