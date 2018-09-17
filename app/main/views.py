@@ -74,11 +74,6 @@ def News():
 
 #  end of News root functions
 
-def get_post(post_id):
-
-    pass
-
-
 @main.route ( '/post/<int:post_id>' )
 def post(post_id):
     '''
