@@ -7,7 +7,7 @@ FEYSAL IBRAHIM`_**
 Here is the link  https://feysal-blog.herokuapp.com/
 
 ## DESCRIPTION
- This is an app that allows users to create,submit,vote pitches based on categories
+ This is an app that allows users to create,submit,vote post based on categories
  ## SPECIFICATION
  You can check the specification of the app in the spec folder in the directory root
 ## Blog cagetories
