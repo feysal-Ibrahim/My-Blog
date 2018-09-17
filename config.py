@@ -1,10 +1,8 @@
 import os
 
 class Config:
-    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://feisal:1234@localhost/myblog'
-
+    # SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://feisal:1234@localhost/myblog'
     SECRET_KEY = os.environ.get('SECRET_KEY')
-
     #  email configurations
     MAIL_SERVER = 'smtp.googlemail.com'
     MAIL_PORT = 587
@@ -21,8 +19,8 @@ class ProdConfig(Config):
 
 
 class DevConfig(Config):
-    # SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://feisal:1234@localhost/myblog'
-    # SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://feisal:1234@localhost/myblog'
+    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://feisal:1234@localhost/myblog'
+    # SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://feisal:1234@localhost/pitch'
 
     DEBUG = True
 
