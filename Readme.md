@@ -1,27 +1,32 @@
-# BAADEST PITCH
+# My-Blog
 #AUTHOR
-FEYSAL IBRAHIM
+**_`
+FEYSAL IBRAHIM`_**
 
 ##Link To The Deployed Site
-Site link:https://pitch-feysal.herokuapp.com/
 
 ## DESCRIPTION
-This is a web application that allows various users to submit a short pitch. Users can also be able to view other pitches from different categories (Pick-up Lines, Interview Pitches, Product Pitches, Promotion Pitches), comment and vote. For a user to do any of that, they need to have registered.
-
+ This is an app that allows users to create,submit,vote pitches based on categories
+## post getories
+1.News
+2.Education
+3.Editor's choice
+4.inspiration
 ## Prerequisites
 1. Ubuntu Software
 2.Python3.6
 3.Postgres
 4. python virtualenv
 # Setup/Installation Requirements
-_`internet access`_ 
-1. _``_
-2. _``_
-3. _``_
-4. _``_. 
-6.  _``_. 
-7.  _``_. 
-8.  _``_. 
+1. _`internet access`_
+2. _`$ git clone https://github.com/feysal-Ibrahim/Baddas-pitch
+`_
+3. _`$ cd /My-Blog`_
+4. _`$ python3.6 -m venv virtual (install virtual environment)`_. 
+5._`$ source virtual/bin/activate`_
+6.  _`$ source virtual/bin/activate`_. 
+7.  _`$ python3.6 -m pip install -r requirements.txt (install all dependencies)`_. 
+8.  _`then $ ./start.sh`_. 
 # How it works
 1.A user needs to register
 2.A user the needs to log in to vote and post pitches
