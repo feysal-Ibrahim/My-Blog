@@ -13,7 +13,7 @@ class UpdateProfile(FlaskForm):
     submit = SubmitField('Submit')
 
 class PostForm(FlaskForm):
-    category_id = SelectField('Select Category', choices=[('1', 'inspiration'), ('2', 'Education'), ('3', 'News'), ('4','EditorsChoice'), ('4','Desugn & Category')])
+    category_id = SelectField('Select Category', choices=[('1', 'inspiration'), ('2', 'Education'), ('3', 'News'), ('4','EditorsChoice'), ('5','Desugn & Category')])
     content = TextAreaField('YOUR post')
     submit = SubmitField('Create post')
 
