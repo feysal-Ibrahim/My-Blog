@@ -8,9 +8,7 @@ from .. import db
 
 @main.route ( '/' )
 def index():
-    if method_is_delete ( request ):
-
-      '''
+    '''
    view function that defines the routes decorater for the index
     '''
 
@@ -130,12 +128,7 @@ def new_post():
     return render_template ( 'new_post.html' , new_PostForm=form , category=category )
 
 
-def is_logged_in():
-    pass
-
-
-@main.route ( '/edit-article/<atring:id>' , methods=['GET' , 'POST'] )
-@is_logged_in
+@main.route ( '/edit-article/<string:id>' , methods=['GET' , 'POST'] )
 def edit_post(id):
     cur = mysql.connection.cursor ( )
 
