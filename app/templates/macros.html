@@ -1,7 +1,7 @@
-{% macro displayPostList(posts_list) %}
-{% for post in posts_list %}
+{% macro displayPostList(posts) %}
+{% for post in posts %}
  <div class="panel style="style="box-shadow: 5px 5px 5px 5px #f2f2f2; padding:10px; text-align:center;">
-          <p>{{pitch.pitch}}</p>
+          <p>{{post.post}}</p>
           <br>
           <a href="{{url_for('main.new_comment',id=pitch.id)}}">Add a Comment</a>&nbsp;&nbsp;|
           <a href="{{url_for('main.view_comments',id=pitch.id)}}">View Comments</a>&nbsp;&nbsp;|
