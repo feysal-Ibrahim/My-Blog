@@ -17,8 +17,8 @@ Here is the link  https://feysal-blog.herokuapp.com/
 4. inspiration
 ## Prerequisites
 1. Ubuntu Software
-2.Python3.6
-3.Postgres
+2. Python3.6
+3. Postgress
 4. python virtualenv
 # Setup/Installation Requirements
 1. _`internet access`_
