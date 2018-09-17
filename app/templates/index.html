@@ -9,31 +9,9 @@
 {% endblock %}
 
 {% block content %}
-    <div class="container" style="background-color:gainsboro; padding:20px; margin-top:0px; padding-top:40px; padding-bottom:400px;">
+    <div class="container" style="background-color:gainsboro; padding:40px; margin-top:0px; padding-top:400px; padding-bottom:400px;">
         <div class="row" style="text-align:center; font-size:30px;">
             <span style="font-size:40px; font-family: 'Bellefair', cursive;">My Mini Blog</span>
-        </div>
-        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
-                    <a href="{{url_for('main.inspiration')}}" style="font-family: 'Joti One', cursive; font-size:20px;">
-                        <br>
-                        inspiration
-                    </a>
-                    <br>
-                    <a href="{{url_for('main.Editors')}}" style="font-family: 'Joti One', cursive; font-size:20px;">
-                        <br>
-                        Editors
-                    </a>
-                    <br>
-            <a href="{{url_for('main.Education')}}" style="font-family: 'Joti One', cursive; font-size:20px;">
-                        <br>
-                        Educator
-                    </a>
-            <br>
-                    <a href="{{url_for('main.News')}}" style="font-family: 'Joti One', cursive; font-size:20px;">
-                        <br>
-                        News
-                    </a>
-                    <br>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-9">
             <div class="panel-default style="style="border: 3px solid #f2f2f2; padding:20px; margin-top:10px;">
@@ -51,7 +29,9 @@
 
         </div>
     </hr>
-        <div class="all-post"style="text-align">
+        </hr>
+        </hr>
+        <div class="all-post"style="text-align:center">
             <span style="color:gains">All posts are displayed below</span>
                 <hr>
                 {{macro.displayPostList(posts)}}
